@@ -1,5 +1,5 @@
 FROM python:3.9-alpine
-MAINTAINER Waku-iSoft App Developer srls
+MAINTAINER philip.waku@waku-isoft.com
 ENV PYTHONUNBUFFERED 1
 COPY ./requirements.txt /requirements.txt
 RUN pip install -r /requirements.txt
